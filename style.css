@@ -150,3 +150,14 @@ a {
     border: none;
     cursor: pointer;
 }
+
+.bg-gray-50 {
+    background-color: #f9fafb !important;
+    padding: 48px 24px !important;
+    text-align: center;
+}
+
+.max-w-4xl {
+    max-width: 56rem;
+    margin: 0 auto;
+}
