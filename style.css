@@ -3,6 +3,10 @@ body {
     padding-bottom: 50px;
 }
 
+header {
+    justify-content: space-between;
+}
+
 .title {
     font-size: 36px;
     font-weight: 800;
@@ -15,24 +19,21 @@ img {
 .footer {
     position: fixed;
     bottom: 0;
-    left: 0;
+    left: 0; 
     right: 0;
     height: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: beige;
+    background: rgb(197, 197, 152);
 }
 
 .header {
     background: beige;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     font-family: monospace;
-}
-
-ul {
-    list-style-type: none;
+    border-radius: 20px;
 }
 
 a {
@@ -42,6 +43,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    color: rgb(35, 192, 35);
+}
+
 .logo {
     color: rebeccapurple;
     font-size: 32px;
@@ -49,19 +54,29 @@ a {
     font-style: italic;
 }
 
+.logo:hover {
+    transform: rotate(360deg);
+    transition: All 2s;
+    -ms-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
+
 .sign-up-btn {
     background-color: rgb(100, 216, 255);
     color: white;
     padding: 10px 25px;
     border-radius: 8px;
-    border: none;
     font-weight: bold;
     cursor: pointer;
 }
 
+.sign-up-btn:hover {
+    color: greenyellow;
+}
+
 .hero-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
@@ -112,6 +127,10 @@ a {
     text-align: center;
 }
 
+h2 {
+    font-size: 25px;
+}
+
 .quote-container {
     font-style: oblique;
 }
@@ -134,7 +153,7 @@ a {
 }
 
 .cta-banner {
-    background-color: beige;
+    background-color: rgb(245, 193, 193);
     padding: 20px 40px;
     border-radius: 10px;
     display: flex;
@@ -160,4 +179,8 @@ a {
 .max-w-4xl {
     max-width: 56rem;
     margin: 0 auto;
+}
+
+html {
+    scroll-behavior: smooth;
 }
