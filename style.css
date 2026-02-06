@@ -13,7 +13,7 @@ header {
 }
 
 img {
-    width: 250px;
+    width: 225px;
 }
 
 .footer {
@@ -25,20 +25,18 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgb(197, 197, 152);
+    background: beige;
 }
 
 .header {
-    background: beige;
+    background: rgb(172, 172, 132);
     align-items: center;
     justify-content: space-between;
     font-family: monospace;
-    border-radius: 20px;
 }
 
 a {
     font-size: 20px;
-    background: beige;
     padding: 5px;
     text-decoration: none;
 }
@@ -170,6 +168,10 @@ h2 {
     border-radius: 8px;
     border: none;
     cursor: pointer;
+}
+
+.cta-button:hover {
+    color: greenyellow;
 }
 
 .max-w-4xl {
