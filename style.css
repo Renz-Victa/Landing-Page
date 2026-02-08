@@ -6,10 +6,6 @@ body {
     transition: backgroundColor 0.3s, color 0.3s;
 }
 
-header {
-    justify-content: space-between;
-}
-
 .footer {
     position: fixed;
     bottom: 0;
@@ -76,6 +72,8 @@ a:hover {
 
 .hero-image {
     width: 500px;
+    margin: 50px;
+    gap: 10px;
 }
 
 .hero-image img {
