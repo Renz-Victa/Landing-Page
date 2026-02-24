@@ -9,3 +9,10 @@ A landing page includes a section to grab attention to the user right away, and 
 - Provides stuctured sections such as About and Contact
 - Ensures responsivesness across desktops mobile devices
 
+## 🛠 Built With
+
+- Tailwind CSS
+- Flexbox
+- HTML5
+- JavaScript 
+- CSS3s
